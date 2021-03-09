@@ -8,9 +8,9 @@ const Features = () => {
         <div className="container">
             <div className="row justify-content-center mb-5">
                 <div className="col-lg-7 text-center">
-                    <h2 className="fw-bold">Our Features</h2>
-                    <p className="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
-                        doloremque laudantium totam rem ab illo inventore.</p>
+                    <h2 className="head borderBottom">Our Features</h2>
+                    {/* <p className="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
+                        doloremque laudantium totam rem ab illo inventore.</p> */}
                 </div>
             </div>
 
@@ -20,7 +20,7 @@ const Features = () => {
                     <p className="text-muted mb-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore
                         veritatis..</p>
-                    <a href="javascript: void(0);" className="btn btn-primary">Find out more <i className="icon-xs ms-2"
+                    <a href="#" className="btn btn-golden">Find out more <i className="icon-xs ms-2"
                             data-feather="arrow-right"></i></a>
                 </div>
                 <div className="col-md-6 ms-md-auto order-1 order-md-2">
@@ -47,7 +47,7 @@ const Features = () => {
                     <p className="text-muted mb-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
                         accusantium doloremque laudantium totam rem aperiam eaque ipsa quae ab illo inventore
                         veritatis..</p>
-                    <a href="javascript: void(0);" className="btn btn-primary">Find out more <i className="icon-xs ms-2"
+                    <a href="#" className="btn btn-golden">Find out more <i className="icon-xs ms-2"
                             data-feather="arrow-right"></i></a>
                 </div>
             </div>

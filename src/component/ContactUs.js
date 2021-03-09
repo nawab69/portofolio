@@ -44,7 +44,7 @@ const ContactUs = () => {
                                             placeholder="Enter message..."></textarea>
                                     </div>
 
-                                    <button type="submit" id="submit" name="send" className="btn btn-primary">Send
+                                    <button type="submit" id="submit" name="send" className="btn btn-golden">Send
                                         Message</button>
 
                                 </div>
@@ -65,13 +65,13 @@ const ContactUs = () => {
                             Park Mor, Rangpur</p>
                         <ul className="list-inline pt-4">
                             <li className="list-inline-item me-3">
-                                <a href="javascript: void(0);" className="social-icon icon-mono avatar-xs rounded-circle"><Facebook className="icon-xs"/></a>
+                                <a href="#" className="social-icon icon-mono avatar-xs rounded-circle"><Facebook className="icon-xs"/></a>
                             </li>
                             <li className="list-inline-item me-3">
-                                <a href="javascript: void(0);" className="social-icon icon-mono avatar-xs rounded-circle"><Twitter className="icon-xs"/></a>
+                                <a href="#" className="social-icon icon-mono avatar-xs rounded-circle"><Twitter className="icon-xs"/></a>
                             </li>
                             <li className="list-inline-item">
-                                <a href="javascript: void(0);" className="social-icon icon-mono avatar-xs rounded-circle"><Instagram className="icon-xs"/></a>
+                                <a href="#" className="social-icon icon-mono avatar-xs rounded-circle"><Instagram className="icon-xs"/></a>
                             </li>
                         </ul>
                     </div>

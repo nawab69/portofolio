@@ -17,15 +17,15 @@
     padding-top: 60px;
     padding-bottom: 20px;
     position: relative;
-    background: $dark;
+    background: $footer;
     .footer-sub-menu {
         li {
             margin: 14px 0;
             .footer-link {
-                color: rgba($white, 0.5);
+                color: rgba($dark, 0.5);
                 transition: all 0.3s;
                 &:hover {
-                    color: $white;
+                    color: $golden;
                     margin-left: 5px;
                 }
             }

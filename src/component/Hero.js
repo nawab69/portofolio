@@ -1,25 +1,24 @@
 import React from 'react'
-import BackgroundImage from '../images/hero-6-bg.png'
+import BackgroundImage from '../images/white-bg.jpg'
+import { Play, PlayCircle } from 'react-feather'
 
 const Hero = () => {
       return (
             <div>
                   
-    <section className="hero-3 bg-center position-relative" style={{backgroundImage: `url(${BackgroundImage})`}} id="home">
+    <section className="hero-3 bg-center position-relative" style={{background: `linear-gradient(to right bottom,rgba(255,255,255,0.7),rgba(255,255,255,0.7)),url(${BackgroundImage})`,backgroundSize:'cover'}} id="home">
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-lg-8">
                     <div className="text-center">
-                        <span className="badge badge-soft-primary mb-4">Professional Landing</span>
-                        <h1 className="font-weight-semibold mb-4 hero-3-title">The goal isn’t to build a <span className="text-gradiant-rose">website</span>  The goal is to build your <span className="text-gradiant-dark-orange">business</span></h1>
+                        {/* <span className="badge badge-soft-primary mb-4">Professional Landing</span> */}
+                        <h1 className="font-weight-semibold mb-4 hero-3-title head">Our goal isn’t to build a <span className="text-gradiant-rose">website</span>  Our goal is to build your <span className="text-gradiant-dark-orange">business</span></h1>
                         <p className="mb-5 text-muted subtitle w-75 mx-auto">Nemo enim ipsam voluptatem quia voluptas sit
                             aut aspernatur aut fugit sed consequuntur magni dolores nesciunt.</p>
 
                         <div>
-                            <button type="button" className="btn btn-primary rounded-pill me-2">Sign up for free</button>
-                            <button type="button" className="btn btn-light rounded-pill me-2" data-bs-toggle="modal"
-                                data-bs-target="#watchvideomodal">Play video <i className="ms-1 icon-sm"
-                                    data-feather="play-circle"></i></button>
+                            <button type="button" className="btn btn-golden rounded-pill me-2">Let's Start Discussion</button>
+                            <button type="button" className="btn btn-secondary rounded-pill me-2">Explore <PlayCircle className="explore-anime"/> </button>
                         </div>
 
                         

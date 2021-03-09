@@ -9,7 +9,7 @@ a {
     color: $dark;
     transition: all 0.2s;
     &:hover {
-        color: $primary;
+        color: $golden;
     }
 }
 body {
@@ -25,4 +25,21 @@ p {
 h1, h2, h3, h4, h5, h6 {
     font-family: $font-secondary;
     font-weight: 600;
+}
+.head{
+    font-family: $font-fancy;
+    font-size: 3rem;
+}
+.borderBottom{
+    padding-bottom: 7px;
+}
+.borderBottom::after{
+    content:"";
+    position: absolute;
+    bottom: 0;
+    left: 45%;
+    right: 0;
+    border-top: 3px solid rgb(161, 75, 75);
+    width: 4rem;
+    z-index: 1;
 }

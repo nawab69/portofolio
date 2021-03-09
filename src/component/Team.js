@@ -8,7 +8,7 @@ const Team = () => {
         <div className="container">
             <div className="row justify-content-center mb-4">
                 <div className="col-lg-7 text-center">
-                    <h2 className="fw-bold">Our Team Members</h2>
+                    <h2 className=" head borderBottom">Our Team Members</h2>
                     <p className="text-muted">Meet the geniuses behind this company</p>
                 </div>
             </div>
@@ -16,7 +16,7 @@ const Team = () => {
             <div className="row">
             {data && data.map(member=>(<>
           
-               <div className="col-lg-4 col-sm-6">
+               <div className="col-lg-4 col-sm-6" key={member.id}>
                     <div className="team-box mt-4 position-relative overflow-hidden rounded text-center shadow">
                         <div className="position-relative overflow-hidden">
                             <img src={`${process.env.PUBLIC_URL}/assets/images/team/${member.image}`} alt="" className="img-fluid d-block mx-auto" />

@@ -45,7 +45,7 @@
         &.active,
         &:hover,
         &:focus {
-          color: $white !important;
+          color: $golden !important;
         }
       }
     }
@@ -55,12 +55,12 @@
     font-size: 18px;
     background: 0 0;
     border: 1px solid transparent;
-    color: $white;
+    color: $golden;
     outline: 0;
   }
   .nav-btn {
     background-color: $light;
-    color: $primary;
+    color: $golden;
   }
 }
 .navbar-toggler {
@@ -100,13 +100,13 @@
           &.active,
           &:hover,
           &:focus {
-            color: $primary !important;
+            color: $golden !important;
           }
         }
       }
     }
     .nav-btn {
-      background-color: $primary;
+      background-color: $golden;
       color: $white;
     }
   }
@@ -127,6 +127,12 @@
   &:focus {
     outline: none;
   }
+}
+
+.toggle-menubar{
+  border: 2px $gray-400 solid !important;
+  border-radius: 50%;
+  padding: 7px;
 }
 
 // Navbar light
@@ -151,7 +157,7 @@
         &.active,
         &:hover,
         &:focus {
-          color: $primary !important;
+          color: $golden !important;
         }
       }
     }
@@ -167,7 +173,7 @@
     margin-top: 0px;
     background-color: $white !important;
     box-shadow: 0 3px 10px rgba($black, 0.08);
-    color: $white !important;
+    color: $golden !important;
     .navbar-nav {
       margin-top: 0px;
       li {
@@ -180,7 +186,7 @@
           &.active,
           &:hover,
           &:focus {
-            color: $primary !important;
+            color: $golden !important;
           }
         }
         &.active {

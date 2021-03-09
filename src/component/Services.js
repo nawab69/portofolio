@@ -8,7 +8,7 @@ const Services = () => {
         <div className="container">
             <div className="row justify-content-center mb-5">
                 <div className="col-lg-7 text-center">
-                    <h2 className="fw-bold">Our Services</h2>
+                    <h2 className="head borderBottom">Our Services</h2>
                     {/* <p className="text-muted">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium
                         doloremque laudantium totam rem ab illo inventore.</p> */}
                 </div>

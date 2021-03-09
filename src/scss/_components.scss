@@ -40,7 +40,8 @@
     @each $color,
     $value in $theme-colors {
         &.btn-#{$color} {
-            background-color: #{$value} !important;
+            // background-color:linear-gradient(to right,$value,lighten($value,40%)) !important;
+            background: linear-gradient(to right top, $value,lighten($value,10%)) !important;
             border: 1px solid #{$value} !important;
             color: $white;
             box-shadow: 0 4px 20px rgba($value, .15);
