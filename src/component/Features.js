@@ -3,8 +3,8 @@ import {} from 'react-feather'
 
 const Features = () => {
       return (
- <div>             
-    <section className="section bg-light" id="features">
+ <>             
+    <section className="section bg-light overflow-hidden" id="features">
         <div className="container">
             <div className="row justify-content-center mb-5">
                 <div className="col-lg-7 text-center">
@@ -56,7 +56,7 @@ const Features = () => {
 
     </section>
 
-  </div>
+  </>
       )
 }
 

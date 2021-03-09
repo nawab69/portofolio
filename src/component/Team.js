@@ -3,8 +3,8 @@ import data from '../data/team.data'
 import { Facebook, Instagram, Linkedin, Twitter } from 'react-feather'
 const Team = () => {
       return (
- <div>
-    <section className="section bg-light" id="team">
+ <>
+    <section className="section bg-light overflow-hidden" id="team">
         <div className="container">
             <div className="row justify-content-center mb-4">
                 <div className="col-lg-7 text-center">
@@ -50,7 +50,7 @@ const Team = () => {
      
     </section>
    
- </div>
+ </>
  )
 }
 

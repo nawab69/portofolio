@@ -3,7 +3,7 @@ import { AlignCenter, Menu } from 'react-feather'
 
 const NavBar = () => {
       return (
-            <div>
+            <>
                   
     <nav className="navbar navbar-expand-lg navbar-light fixed-top" id="navbar">
         <div className="container">
@@ -48,7 +48,7 @@ const NavBar = () => {
         </div>
         
     </nav>
-            </div>
+            </>
       )
 }
 

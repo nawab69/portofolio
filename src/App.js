@@ -8,6 +8,7 @@ import ContactUs from './component/ContactUs'
 import './css/bootstrap.min.css';
 import './css/materialdesignicons.min.css';
 import './scss/style.scss';
+// import './css/style.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
 
@@ -19,7 +20,7 @@ function App() {
   })
 
   return (
-    <div>
+    <>
       <NavBar />
       <Hero />
       <Services/>
@@ -27,7 +28,7 @@ function App() {
       <Team/>
       <ContactUs/>
       <Footer />
-    </div>
+    </>
   );
 }
 

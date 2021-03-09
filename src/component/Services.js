@@ -3,7 +3,7 @@ import { Box, Layers, Terminal, Tool } from 'react-feather'
 
 const Services = () => {
       return (
-      <div>
+      <>
        <section className="section" id="services">
         <div className="container">
             <div className="row justify-content-center mb-5">
@@ -14,8 +14,8 @@ const Services = () => {
                 </div>
             </div>
 
-            <div className="row">
-                <div className="col-lg-4" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="fade-right">
+            <div className="row overflow-hidden">
+                <div className="col-lg-4" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="fade-up">
                     <div className="service-box text-center px-4 py-5 position-relative mb-4">
                         <div className="service-box-content p-4">
                             <div className="icon-mono service-icon service-bg-1 avatar-md mx-auto mb-4">
@@ -28,7 +28,7 @@ const Services = () => {
                 </div>
             
 
-                <div data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="fade-up" className="col-lg-4">
+                <div data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="fade-left" className="col-lg-4">
                     <div className="service-box text-center px-4 py-5 position-relative mb-4 active">
                         <div className="service-box-content p-4">
                             <div className="icon-mono service-icon service-bg-2 avatar-md mx-auto mb-4">
@@ -41,7 +41,7 @@ const Services = () => {
                 </div>
             
 
-                <div className="col-lg-4" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="fade-left">
+                <div className="col-lg-4" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="fade-up">
                     <div className="service-box text-center px-4 py-5 position-relative mb-4">
                         <div className="service-box-content p-4">
                             <div className="icon-mono service-icon service-bg-3 avatar-md mx-auto mb-4">
@@ -53,7 +53,7 @@ const Services = () => {
                     </div>
                 </div>
 
-                <div className="col-lg-4" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="fade-right">
+                <div className="col-lg-4" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="fade-up">
                     <div className="service-box text-center px-4 py-5 position-relative mb-4">
                         <div className="service-box-content p-4">
                             <div className="icon-mono service-icon service-bg-1 avatar-md mx-auto mb-4">
@@ -79,7 +79,7 @@ const Services = () => {
                 </div>
             
 
-                <div className="col-lg-4" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="fade-left">
+                <div className="col-lg-4" data-aos-delay="500" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="fade-up">
                     <div className="service-box text-center px-4 py-5 position-relative mb-4">
                         <div className="service-box-content p-4">
                             <div className="icon-mono service-icon service-bg-3 avatar-md mx-auto mb-4">
@@ -96,7 +96,7 @@ const Services = () => {
         </div>
 
     </section> 
-</div>
+</>
  )
 }
 

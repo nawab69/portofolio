@@ -2,7 +2,7 @@ import React from 'react'
 
 const Footer = () => {
       return (
-            <div>
+            <>
                   <footer className="footer" style={{backgroundUrl: 'url(./images/footer-bg.png)'}}>
         <div className="container">
             <div className="row">
@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
         
     </footer>
-            </div>
+            </>
       )
 }
 

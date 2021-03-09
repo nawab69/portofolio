@@ -3,7 +3,7 @@ import { Facebook, Instagram, Mail, MapPin, Phone, Twitter } from 'react-feather
 
 const ContactUs = () => {
       return (
-            <div>
+            <>
                  <section className="section" id="contact">
         <div className="container">
             <div className="row">
@@ -82,7 +82,7 @@ const ContactUs = () => {
         </div>
        
     </section>   
-            </div>
+            </>
       )
 }
 
