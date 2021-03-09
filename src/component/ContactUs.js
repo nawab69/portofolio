@@ -1,49 +1,50 @@
 import React from 'react'
+import { Facebook, Instagram, Mail, MapPin, Phone, Twitter } from 'react-feather'
 
 const ContactUs = () => {
       return (
             <div>
-                 <section class="section" id="contact">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-6">
-                    <h2 class="fw-bold mb-4">Get in Touch</h2>
-                    <p class="text-muted mb-5">Et harum quidem rerum facilis est expedita distinctio temporecum soluta
+                 <section className="section" id="contact">
+        <div className="container">
+            <div className="row">
+                <div className="col-lg-6">
+                    <h2 className="fw-bold mb-4">Get in Touch</h2>
+                    <p className="text-muted mb-5">Et harum quidem rerum facilis est expedita distinctio temporecum soluta
                         nobis est eligendi optio cumque nihil impedit quo minus maxime.</p>
 
                     <div>
-                        <form method="post" name="myForm" onsubmit="return validateForm()">
+                        <form method="post" name="myForm">
                             <p id="error-msg"></p>
                             <div id="simple-msg"></div>
-                            <div class="row">
-                                <div class="col-lg-6">
-                                    <div class="mb-4">
-                                        <label for="name" class="text-muted form-label">Name</label>
-                                        <input name="name" id="name" type="text" class="form-control"
+                            <div className="row">
+                                <div className="col-lg-6">
+                                    <div className="mb-4">
+                                        <label for="name" className="text-muted form-label">Name</label>
+                                        <input name="name" id="name" type="text" className="form-control"
                                             placeholder="Enter name*"/>
                                     </div>
                                 </div>
-                                <div class="col-lg-6">
-                                    <div class="mb-4">
-                                        <label for="email" class="text-muted form-label">Email</label>
-                                        <input name="email" id="email" type="email" class="form-control"
+                                <div className="col-lg-6">
+                                    <div className="mb-4">
+                                        <label for="email" className="text-muted form-label">Email</label>
+                                        <input name="email" id="email" type="email" className="form-control"
                                             placeholder="Enter email*"/>
                                     </div>
                                 </div>
-                                <div class="col-md-12">
-                                    <div class="mb-4">
-                                        <label for="subject" class="text-muted form-label">Subject</label>
-                                        <input type="text" class="form-control" id="subject" name="subject"
+                                <div className="col-md-12">
+                                    <div className="mb-4">
+                                        <label for="subject" className="text-muted form-label">Subject</label>
+                                        <input type="text" className="form-control" id="subject" name="subject"
                                             placeholder="Enter Subject.." />
                                     </div>
 
-                                    <div class="mb-4 pb-2">
-                                        <label for="comments" class="text-muted form-label">Message</label>
-                                        <textarea name="comments" id="comments" rows="4" class="form-control"
+                                    <div className="mb-4 pb-2">
+                                        <label for="comments" className="text-muted form-label">Message</label>
+                                        <textarea name="comments" id="comments" rows="4" className="form-control"
                                             placeholder="Enter message..."></textarea>
                                     </div>
 
-                                    <button type="submit" id="submit" name="send" class="btn btn-primary">Send
+                                    <button type="submit" id="submit" name="send" className="btn btn-primary">Send
                                         Message</button>
 
                                 </div>
@@ -54,27 +55,23 @@ const ContactUs = () => {
                 </div>
                
 
-                <div class="col-lg-5 ms-lg-auto">
-                    <div class="mt-5 mt-lg-0">
-                        <img src="images/contact.png" alt="" class="img-fluid d-block" />
-                        <p class="text-muted mt-5 mb-3"><i class="me-2 text-muted icon icon-xs" data-feather="mail"></i>
-                            Support@info.com</p>
-                        <p class="text-muted mb-3"><i class="me-2 text-muted icon icon-xs" data-feather="phone"></i> +91
-                            123 4556 789</p>
-                        <p class="text-muted mb-3"><i class="me-2 text-muted icon icon-xs" data-feather="map-pin"></i>
-                            2976 Edwards Street Rocky Mount, NC 27804</p>
-                        <ul class="list-inline pt-4">
-                            <li class="list-inline-item me-3">
-                                <a href="javascript: void(0);" class="social-icon icon-mono avatar-xs rounded-circle"><i
-                                        class="icon-xs" data-feather="facebook"></i></a>
+                <div className="col-lg-5 ms-lg-auto">
+                    <div className="mt-5 mt-lg-0">
+                        <img src="images/contact.png" alt="" className="img-fluid d-block" />
+                        <p className="text-muted mt-5 mb-3"><Mail className="me-2 text-muted icon icon-xs" />
+                            multicone@protonmail.com</p>
+                        <p className="text-muted mb-3"><Phone className="me-2 text-muted icon icon-xs" /> +88 01XXXXXXXX</p>
+                        <p className="text-muted mb-3"><MapPin className="me-2 text-muted icon icon-xs" />
+                            Park Mor, Rangpur</p>
+                        <ul className="list-inline pt-4">
+                            <li className="list-inline-item me-3">
+                                <a href="javascript: void(0);" className="social-icon icon-mono avatar-xs rounded-circle"><Facebook className="icon-xs"/></a>
                             </li>
-                            <li class="list-inline-item me-3">
-                                <a href="javascript: void(0);" class="social-icon icon-mono avatar-xs rounded-circle"><i
-                                        class="icon-xs" data-feather="twitter"></i></a>
+                            <li className="list-inline-item me-3">
+                                <a href="javascript: void(0);" className="social-icon icon-mono avatar-xs rounded-circle"><Twitter className="icon-xs"/></a>
                             </li>
-                            <li class="list-inline-item">
-                                <a href="javascript: void(0);" class="social-icon icon-mono avatar-xs rounded-circle"><i
-                                        class="icon-xs" data-feather="instagram"></i></a>
+                            <li className="list-inline-item">
+                                <a href="javascript: void(0);" className="social-icon icon-mono avatar-xs rounded-circle"><Instagram className="icon-xs"/></a>
                             </li>
                         </ul>
                     </div>

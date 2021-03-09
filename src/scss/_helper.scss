@@ -15,6 +15,16 @@
     }
 }
 
+// Background color
+@each $color, $value in $gradiant-text-colors {
+    .text-gradiant-#{$color} {
+        // background: #{$value} !important;
+        background: #{$value} !important;
+                    background-clip: text !important;
+                    -webkit-text-fill-color: transparent !important;
+    }
+}
+
 .bg-gradient-primary {
     background: linear-gradient(to right, $primary 0%, $purple 100%);
 }

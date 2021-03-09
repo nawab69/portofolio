@@ -19,6 +19,7 @@ $gray-900:                  #212529;
 $black:                     #000;
 
 
+
 $primary:                   #2753ff;
 $purple:                    #a369ff;
 $success:                   #2ac297;
@@ -32,6 +33,17 @@ $body-bg:                   #ffffff;
 $bg-counter:                #5e62ff;
 $footer-bg:                 #343a40;
 
+$gradiant-purple: linear-gradient(to right top, #A49CF4, #DACAFE);
+$gradiant-rose: linear-gradient(to right bottom, #FFB3E8, #FFD7E6);
+$gradiant-green: linear-gradient(to left top, #81E4B1, #E4FAB5);
+$gradiant-orange: linear-gradient(to right, #FFC187, #FFEFBB);
+
+$gradiant-text-purple: linear-gradient( #A49CF4, #DACAFE);
+$gradiant-text-rose: linear-gradient( #FFB3E8, #fce9f0);
+$gradiant-text-green: linear-gradient( #81E4B1, #E4FAB5);
+$gradiant-text-orange: linear-gradient( #FFC187, #FFEFBB);
+$gradiant-text-dark-orange: linear-gradient( #F6B352, #FFC187);
+
 
 $theme-colors: (
     "primary": $primary,
@@ -44,7 +56,16 @@ $theme-colors: (
     "light": $light,
     "body-bg": $body-bg,
     "black": $black,
-    "white": $white
+    "white": $white,
+);
+
+$gradiant-text-colors: (
+    "purple": $gradiant-text-purple,
+    "rose"  : $gradiant-text-rose,
+    "orange" : $gradiant-text-orange,
+    "green"  : $gradiant-text-green,
+    "dark-orange"  : $gradiant-text-dark-orange,
+    
 );
 
 $display-light: block;
@@ -61,7 +82,3 @@ $border-radius-lg: 14px;
 $font-primary:            'Open Sans', sans-serif;
 $font-secondary:          'Assistant', sans-serif;
 
-$gradiant-purple: linear-gradient(to right top, #A49CF4, #DACAFE);
-$gradiant-rose: linear-gradient(to right bottom, #FFB3E8, #FFD7E6);
-$gradiant-green: linear-gradient(to left top, #81E4B1, #E4FAB5);
-$gradiant-orange: linear-gradient(to right, #FFC187, #FFEFBB);

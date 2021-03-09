@@ -1,5 +1,5 @@
 import React from 'react'
-import BackgroundImage from '../images/hero-3-bg.png'
+import BackgroundImage from '../images/hero-6-bg.png'
 
 const Hero = () => {
       return (
@@ -11,7 +11,7 @@ const Hero = () => {
                 <div className="col-lg-8">
                     <div className="text-center">
                         <span className="badge badge-soft-primary mb-4">Professional Landing</span>
-                        <h1 className="font-weight-semibold mb-4 hero-3-title">Professional, Multipurpose Landing Page</h1>
+                        <h1 className="font-weight-semibold mb-4 hero-3-title">The goal isn’t to build a <span className="text-gradiant-rose">website</span>  The goal is to build your <span className="text-gradiant-dark-orange">business</span></h1>
                         <p className="mb-5 text-muted subtitle w-75 mx-auto">Nemo enim ipsam voluptatem quia voluptas sit
                             aut aspernatur aut fugit sed consequuntur magni dolores nesciunt.</p>
 
