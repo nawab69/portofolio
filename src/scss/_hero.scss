@@ -235,6 +235,50 @@
   }
 }
 
-.explore-anime{
-  animation: infinite;
+
+// @keyframes chotoBoro{
+//   0% {margin-left: 0px;}
+//   50% {margin-left: 50px;}
+//   100% {margin-left: 0px;}
+// }
+
+// .explore-anime{
+//   background: hotpink !important;
+//   transition: chotoBoro ease-in;
+// }
+
+@keyframes example {
+  0% {
+    transform: scale(1)  rotate(0deg);
+  }
+  50% {
+    transform: scale(2) rotate(360deg);
+  }
+  100% {
+    transform: scale(1)  rotate(0deg);
+  }
+}
+
+@keyframes daineJao {
+  0% {
+    transform: translateX(0px) rotate(180deg);
+  }
+  50% {
+    transform:  translateX(5px) rotate(180deg);
+  }
+  100% {
+    transform: translateX(0px) rotate(180deg);
+  }
+}
+
+/* The element to apply the animation to */
+.explore-anime {
+  // margin-left: 5px;
+  transform: rotate(180deg);
+  // background-color: red;
+  animation-name: daineJao;
+  animation-duration: 1000ms;
+  // animation-delay: 1000ms;
+  // animation-direction: alternate-reverse;
+  animation-iteration-count: infinite;
 }

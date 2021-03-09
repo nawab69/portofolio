@@ -13,10 +13,10 @@ const Team = () => {
                 </div>
             </div>
 
-            <div className="row">
+            <div className="row justify-content-center">
             {data && data.map(member=>(<>
           
-               <div className="col-lg-4 col-sm-6" key={member.id}>
+               <div className="col-lg-2 col-md-6 col-sm-6" key={member.id} data-aos="fade-up">
                     <div className="team-box mt-4 position-relative overflow-hidden rounded text-center shadow">
                         <div className="position-relative overflow-hidden">
                             <img src={`${process.env.PUBLIC_URL}/assets/images/team/${member.image}`} alt="" className="img-fluid d-block mx-auto" />

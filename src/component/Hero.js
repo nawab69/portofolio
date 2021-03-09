@@ -1,6 +1,6 @@
 import React from 'react'
 import BackgroundImage from '../images/white-bg.jpg'
-import { Play, PlayCircle } from 'react-feather'
+import { Navigation2, Play, PlayCircle, Rewind } from 'react-feather'
 
 const Hero = () => {
       return (
@@ -18,7 +18,7 @@ const Hero = () => {
 
                         <div>
                             <button type="button" className="btn btn-golden rounded-pill me-2">Let's Start Discussion</button>
-                            <button type="button" className="btn btn-secondary rounded-pill me-2">Explore <PlayCircle className="explore-anime"/> </button>
+                            <button type="button" className="btn btn-secondary rounded-pill me-2"> Explore <div className="explore-anime" style={{display:'inline-block'}}><Navigation2 fill="white"/></div> </button>
                         </div>
 
                         

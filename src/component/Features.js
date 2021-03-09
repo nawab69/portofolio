@@ -14,7 +14,7 @@ const Features = () => {
                 </div>
             </div>
 
-            <div className="row align-items-center mb-5">
+            <div className="row align-items-center mb-5" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="fade-right">
                 <div className="col-md-5 order-2 order-md-1 mt-md-0 mt-5">
                     <h2 className="mb-4">Perfect Solution For Small Businesses</h2>
                     <p className="text-muted mb-5">Sed ut perspiciatis unde omnis iste natus error sit voluptatem
@@ -33,7 +33,7 @@ const Features = () => {
                 </div>
             </div>
           
-            <div className="row align-items-center section pb-0">
+            <div className="row align-items-center section pb-0" data-aos-delay="50" data-aos-duration="1000" data-aos-easing="ease-in-out" data-aos="fade-left">
                 <div className="col-md-6">
                     <div className="position-relative mb-md-0 mb-5">
                         <div className="me-5 features-img">
