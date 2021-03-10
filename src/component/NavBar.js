@@ -1,6 +1,6 @@
 import React from 'react'
 import { AlignCenter, Menu } from 'react-feather'
-import header from '../images/multicone.svg'
+import header from '../images/logo/multicone.png'
 import ContactImage from '../images/contact-24-7-4.svg'
 const NavBar = () => {
      const clickEvent = (e)=>{
@@ -13,7 +13,7 @@ const NavBar = () => {
         <div className="container">
             <a className="navbar-brand logo" href="index-1.html">
                  {/* <img src={header} alt="" className="logo-light" height='' /> */}
-                 <img src={header} alt="" className="img-fluid" width="150px"/>
+                 <img src={header} alt="" className="img-fluid" width="200px"/>
             </a>
             <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse"
                 aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">

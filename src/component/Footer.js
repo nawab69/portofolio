@@ -1,4 +1,5 @@
 import React from 'react'
+import Logo from '../images/logo/multicone.png'
 
 const Footer = () => {
       return (
@@ -6,9 +7,9 @@ const Footer = () => {
                   <footer className="footer" style={{backgroundUrl: 'url(./images/footer-bg.png)'}}>
         <div className="container">
             <div className="row">
-                <div className="col-lg-4">
+                <div className="col-lg-4 d-flex align-items-center">
                     <div className="mb-4">
-                        <a href="index-1.html"><img src="images/logo-light.png" alt="" className="" height="30" /></a>
+                        <a href="#"><img src={Logo} alt="" className="" height="30" /></a>
                         <p className="text-white-50 my-4"></p>
                     </div>
                 </div>
@@ -70,7 +71,7 @@ const Footer = () => {
             <div className="row">
                 <div className="col-lg-12">
                     <div className="text-center mt-5">
-                        <p className="text-white-50 f-15 mb-0">                            
+                        <p className="text-dark f-15 mb-0">                            
                                 {new Date().getFullYear()}
                              © Multicone
                         </p>
