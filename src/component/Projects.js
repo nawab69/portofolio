@@ -22,7 +22,7 @@ const Projects = () => {
                             <h3>{member.id}</h3>
                          
                             <div className='d-flex text-white justify-content-center'>
-                                    <a href="#" className="btn btn-golden btn-md py-2 px-4 rounded-pill">View Project</a>
+                                    <a href="#" className="btn btn-golden py-3 px-5 rounded-pill">View Project</a>
                             </div>
                         </div>
                     </div>

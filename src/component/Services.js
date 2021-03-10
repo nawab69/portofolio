@@ -1,5 +1,5 @@
 import React from 'react'
-import { Box, Code, Layers, Layout, Monitor, Phone, Tablet, Terminal, Tool } from 'react-feather'
+import { Box, Code, Image, Layers, Layout, Monitor, Phone, Tablet, Terminal, Tool } from 'react-feather'
 
 const Services = () => {
       return (
@@ -32,7 +32,7 @@ const Services = () => {
                     <div className="service-box text-center px-4 py-5 position-relative mb-4 active">
                         <div className="service-box-content p-4">
                             <div className="icon-mono service-icon service-bg-6 avatar-md mx-auto mb-4">
-                                <Terminal/>
+                                <Image />
                             </div>
                             <h4 className="mb-3 font-size-22">Illustration</h4>
                             <p className="text-muted mb-0">Logo Design, Icon Set, Illustration Guide, Illustration Set</p>
