@@ -11,6 +11,9 @@ import './scss/style.scss';
 // import './css/style.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
+import MessageBottom from './component/MessageBottom';
+import Projects from './component/Projects';
+// import Message from './component/Message';
 
 
 function App() {
@@ -24,10 +27,12 @@ function App() {
       <NavBar />
       <Hero />
       <Services/>
-      <Features/>
+      <Projects/>
+      {/* <Features/> */}
       <Team/>
       <ContactUs/>
       <Footer />
+      <MessageBottom/>
     </>
   );
 }

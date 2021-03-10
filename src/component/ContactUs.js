@@ -1,5 +1,6 @@
 import React from 'react'
 import { Facebook, Instagram, Mail, MapPin, Phone, Twitter } from 'react-feather'
+import ContactImage from '../images/contact-24-7-4.svg'
 
 const ContactUs = () => {
       return (
@@ -57,7 +58,8 @@ const ContactUs = () => {
 
                 <div className="col-lg-5 ms-lg-auto">
                     <div className="mt-5 mt-lg-0">
-                        <img src="images/contact.png" alt="" className="img-fluid d-block" />
+                        {/* process.env.PUBLIC_URL}/assets/images/footer/contact.png` */}
+                        <img src={ContactImage} alt="" className="img-fluid" width='200px'/>
                         <p className="text-muted mt-5 mb-3"><Mail className="me-2 text-muted icon icon-xs" />
                             multicone@protonmail.com</p>
                         <p className="text-muted mb-3"><Phone className="me-2 text-muted icon icon-xs" /> +88 01XXXXXXXX</p>

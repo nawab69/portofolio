@@ -4,7 +4,7 @@ import {} from 'react-feather'
 const Features = () => {
       return (
  <>             
-    <section className="section bg-light overflow-hidden" id="features">
+    <section className="section overflow-hidden" id="features">
         <div className="container">
             <div className="row justify-content-center mb-5">
                 <div className="col-lg-7 text-center">

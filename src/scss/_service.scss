@@ -21,6 +21,15 @@
         &.service-bg-3{
             background: $gradiant-light-orange;
         }
+        &.service-bg-4{
+            background: $gradiant-bluis;
+        }
+        &.service-bg-5{
+            background: $gradiant-violet;
+        }
+        &.service-bg-6{
+            background: $gradiant-mix;
+        }
     }
     &:after {
         content: "";

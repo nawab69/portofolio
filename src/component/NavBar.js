@@ -30,6 +30,9 @@ const NavBar = () => {
                     <li className="nav-item">
                         <a href="#features" className="nav-link">Features</a>
                     </li>
+                     <li className="nav-item">
+                        <a href="#project" className="nav-link">Projects</a>
+                    </li>
                     {/* <li className="nav-item">
                         <a href="#pricing" className="nav-link">Pricing</a>
                     </li> */}
@@ -43,7 +46,7 @@ const NavBar = () => {
                         <a href="#contact" className="nav-link">Contact Us</a>
                     </li>
                 </ul>
-                <a href="" className="btn btn-sm rounded-pill btn-golden nav-btn ms-lg-3">Let's Talk</a>
+                <a href="#contact" className="btn btn-sm rounded-pill btn-golden nav-btn ms-lg-3">Let's Talk</a>
             </div>
         </div>
         

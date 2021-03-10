@@ -4,7 +4,7 @@ import { Facebook, Instagram, Linkedin, Twitter } from 'react-feather'
 const Team = () => {
       return (
  <>
-    <section className="section bg-light overflow-hidden" id="team">
+    <section className="section bg-light  overflow-hidden" id="team">
         <div className="container">
             <div className="row justify-content-center mb-4">
                 <div className="col-lg-7 text-center">

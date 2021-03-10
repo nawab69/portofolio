@@ -1,10 +1,11 @@
 /* 
 // variables.scss
 */
-
-
+@import url('https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Assistant:wght@400;600;700&family=Open+Sans:wght@400;600;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;600&display=swap');
+// @import url('https://fonts.googleapis.com/css2?family=Jura:wght@300&display=swap');
+
 // Color variables
 $white:                     #fff;
 $gray-100:                  #f8f9fb;
@@ -18,7 +19,7 @@ $gray-800:                  #343a40;
 $gray-900:                  #212529;
 $black:                     #000;
 $footer:                    #F8F6F6;
-
+$bluis :                      #9EBAFD;
 $light-rose:                #FF9894;
 $golden:                    #f7af6d;
 $primary:                   #2753ff;
@@ -34,12 +35,17 @@ $body-bg:                   #ffffff;
 $bg-counter:                #5e62ff;
 $footer-bg:                 #343a40;
 
+
+
+$gradiant-bluis: linear-gradient(to right top, #9EBAFD, #f1fafc);
 $gradiant-purple: linear-gradient(to right top, #A49CF4, #DACAFE);
-$gradiant-rose: linear-gradient(to right bottom, #FFB3E8, #FFD7E6);
+$gradiant-rose: linear-gradient(to right top, #FFB3E8, #fcecf1);
 $gradiant-green: linear-gradient(to left top, #81E4B1, #E4FAB5);
 $gradiant-orange: linear-gradient(to right, #FFC187, #FFEFBB);
 $gradiant-light-orange: linear-gradient(to right, #FF9894, #FFD5BF);
-
+// $gradiant-violet: linear-gradient(to right, #9d50bb, #6e48aa);
+$gradiant-violet: linear-gradient(to right, #A39CF4, #DFCBFD);
+$gradiant-mix: linear-gradient(to right, #83a4d4, #b6fbff);
 $gradiant-text-purple: linear-gradient( #A49CF4, #DACAFE);
 $gradiant-text-rose: linear-gradient( #FFB3E8, #f8cbdc);
 $gradiant-text-green: linear-gradient( #81E4B1, #E4FAB5);
@@ -86,4 +92,5 @@ $border-radius-lg: 14px;
 $font-primary:            'Open Sans', sans-serif;
 $font-secondary:          'Assistant', sans-serif;
 $font-fancy:              'Playfair Display';
+$font-jura:                'Jura';
 
