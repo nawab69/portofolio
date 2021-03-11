@@ -13,6 +13,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import MessageBottom from './component/MessageBottom';
 import Projects from './component/Projects';
+import Loader from './component/Loader';
 // import Message from './component/Message';
 
 
@@ -24,6 +25,7 @@ function App() {
 
   return (
     <>
+      <Loader />
       <NavBar />
       <Hero />
       <Services/>

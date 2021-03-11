@@ -10,8 +10,7 @@ const ContactUs = () => {
             <div className="row">
                 <div className="col-lg-6">
                     <h2 className="fw-bold mb-4">Get in Touch</h2>
-                    <p className="text-muted mb-5">Et harum quidem rerum facilis est expedita distinctio temporecum soluta
-                        nobis est eligendi optio cumque nihil impedit quo minus maxime.</p>
+                    <p className="text-muted mb-5">Get the best from our geniuses</p>
 
                     <div>
                         <form method="post" name="myForm">
