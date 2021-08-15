@@ -1,9 +1,55 @@
-const data =[
-      {id:1,name:'labu',designation:'developer',facebook:'#',twitter:'#',insta:'#',linkdin:'#',image:'3.jpg'},
-      {id:2,name:'rishad',designation:'developer',facebook:'#',twitter:'#',insta:'#',linkdin:'#',image:'5.jpg'},
-      {id:3,name:'shanto',designation:'developer',facebook:'#',twitter:'#',insta:'#',linkdin:'#',image:'4.jpg'},
-      {id:4,name:'kibria',designation:'developer',facebook:'#',twitter:'#',insta:'#',linkdin:'#',image:'2.jpeg'},
-      {id:5,name:'shafiq',designation:'developer',facebook:'#',twitter:'#',insta:'#',linkdin:'#',image:'1.jpeg'},
-]
+const data = [
+  {
+    id: 4,
+    name: "Nawab",
+    designation: "Blockchain & Web developer",
+    facebook: "#",
+    twitter: "#",
+    insta: "#",
+    linkdin: "#",
+    image: "2.jpeg",
+  },
+  {
+    id: 5,
+    name: "Shafiq",
+    designation: "Blockchain & Web developer",
+    facebook: "#",
+    twitter: "#",
+    insta: "#",
+    linkdin: "#",
+    image: "1.jpeg",
+  },
+  {
+    id: 1,
+    name: "labu",
+    designation: "Blockchain & Web developer",
+    facebook: "#",
+    twitter: "#",
+    insta: "#",
+    linkdin: "#",
+    image: "3.jpg",
+  },
+  {
+    id: 3,
+    name: "shanto",
+    designation: "Programmer",
+    facebook: "#",
+    twitter: "#",
+    insta: "#",
+    linkdin: "#",
+    image: "4.jpg",
+  },
 
-export default data
+  {
+    id: 2,
+    name: "rishad",
+    designation: "Programmer",
+    facebook: "#",
+    twitter: "#",
+    insta: "#",
+    linkdin: "#",
+    image: "5.jpg",
+  },
+];
+
+export default data;
